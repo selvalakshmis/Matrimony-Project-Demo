@@ -1,0 +1,20 @@
+.viewCard{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .img{
+    width: 1.5em;
+  }
+
+  .imgs{
+    width: 1.3em;
+  }
+
+  .cardImage{
+    height: 350px !important;
+  }
+  .cardBody{
+    width :450px;
+  }

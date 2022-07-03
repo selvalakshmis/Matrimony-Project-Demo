@@ -12,6 +12,7 @@ import { NotificationsComponent } from './notifications/notifications.component'
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { ViewrequestsComponent } from './viewrequests/viewrequests.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { HomeComponent } from './home/home.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
+    ViewrequestsComponent,
     
   ],
   imports: [

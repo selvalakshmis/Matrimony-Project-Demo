@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { MailboxComponent } from './mailbox/mailbox.component';
 import { NotificationsComponent } from './notifications/notifications.component';
 import { RegisterComponent } from './register/register.component';
+import { ViewrequestsComponent } from './viewrequests/viewrequests.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/logIn',  pathMatch: 'full'},
@@ -19,7 +20,13 @@ const routes: Routes = [
       {path: '', redirectTo: 'home',  pathMatch: 'full'},   
       {
         path: 'home',
-        component : HomeComponent
+        component : HomeComponent,
+        children :[
+          {
+            path : 'viewrequests',
+            component : ViewrequestsComponent
+          }
+        ]
       },
       {
        path : 'mailbox',
@@ -28,7 +35,8 @@ const routes: Routes = [
       {
         path : 'notifications',
         component : NotificationsComponent
-       },
+      },
+      
     ]
   },
 

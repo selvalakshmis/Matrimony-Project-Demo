@@ -1,4 +1,7 @@
 <div class="container" style="max-width: 100%;">
+
+    <router-outlet></router-outlet>
+
     <div class="row">
         <div class = "col-9">
             <h5 class="headerText"> Awaiting Your Response </h5>
@@ -9,15 +12,18 @@
     </div>
 
     <div class="row"> 
+        
         <div class="col-1">
             <img class="waitingImgs" src="../../assets/images/recommandImages/s1.jpg">
         </div>
         <div class="textclass col">
-            <strong>Naveen</strong> (27 yrs, 6'0") sent you an interest.
-            <br>
-            <br>
-            <span class="dText"> Decline </span> | <strong> <span class="aText"> Accept </span> </strong>
-        </div>
+            <a class="text-black" routerLink="./viewrequests" style="text-decoration:none" >
+                <strong>Rob</strong> (25 yrs, 5'6") sent you an interest.
+                <br>
+                <br>
+            </a>
+            <span class="dText"> Decline </span> | <strong> <span class="aText"> Accept </span> </strong>   
+        </div>        
     </div>
 
     <br>   
@@ -105,6 +111,5 @@
             <p>29 yrs, 5'5"</p>
         </div>     
     </div>
-
-
 </div>
+
