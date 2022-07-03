@@ -1,0 +1,52 @@
+ .logo{
+    border-radius : 50%;
+    width: 50px;
+    height: 50px;
+  }
+    
+  :host {
+    padding-top: 66px;
+  }
+
+  .footer{
+    height: 60px;
+    background: linear-gradient(#f1f1f1 0,#ffffff 100%);
+    padding-top: 5px;
+    border-top: 1px solid #c6c6c6;
+  }
+
+  .img{
+    width: 1.5em;
+  }
+
+  .imgs{
+    width: 1.3em;
+  }
+
+  .matFooter{
+    text-align: center !important;
+  }
+
+  .change-color:hover, .change-color:focus, .change-color:active {
+    color: #fff;
+    background-color: #1ed006;
+    cursor: pointer;
+  }
+
+  .layoutBar{
+    text-align: right !important;
+  }
+
+  .layout {
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+  }
+
+  .body{
+    overflow-y: auto;
+    height: calc(100vh - 150px);
+    max-height: 100%;
+  }
+
+  

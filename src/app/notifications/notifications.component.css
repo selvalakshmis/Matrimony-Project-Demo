@@ -1,0 +1,18 @@
+.img{
+    width: 1.5em;
+  }
+
+  .imgs{
+    width: 1.3em;
+  }
+
+  .cardImage{
+    height: 350px !important;
+  }
+
+  .nodifyCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

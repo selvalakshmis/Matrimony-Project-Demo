@@ -1,0 +1,26 @@
+.bg-tr{
+  background: linear-gradient(to right,#20af7f 0,hwb(178 4% 45%) 100%)
+}
+ 
+ .logo{
+    border-radius : 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .img{
+    width: 1.5em;
+  }
+
+  .imgs{
+    width: 1.3em;
+  }
+  
+  .change-color:hover, .change-color:focus, .change-color:active {
+    color: #fff;
+    background-color: #1ed006;
+    cursor: pointer;
+  }
+
+  .layoutBar{
+    text-align: right !important;
+  }

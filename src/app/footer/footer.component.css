@@ -1,0 +1,29 @@
+
+  .footer{
+    height: 60px;
+    background: linear-gradient(#f1f1f1 0,#ffffff 100%);
+    padding-top: 5px;
+    border-top: 1px solid #c6c6c6;
+  }
+
+  .img{
+    width: 1.5em;
+  }
+
+  .imgs{
+    width: 1.3em;
+  }
+
+  .matFooter, .text{
+    text-align: center !important;
+  }
+
+  .change-color:hover, .change-color:focus, .change-color:active {
+    color: #fff;
+    background-color: #1ed006;
+    cursor: pointer;
+  }
+
+  .layoutBar{
+    text-align: right !important;
+  }
